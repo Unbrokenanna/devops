@@ -14,7 +14,7 @@ variable "region" {
 variable "zone" {
   description = "Zone to place compute resource at."
   type        = string
-  default     = "us-central1-a"
+  default     = "us-central1"
 }
 
 variable "network" {
@@ -52,6 +52,7 @@ variable "dataset_id" {
   type        = string 
   default     = "bigquery_dataset_via_terraform_af"
 }
+
 
 
 
