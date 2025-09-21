@@ -3,7 +3,6 @@ resource "google_compute_instance" "vm_instance" {
 	project = var.project_id
 	name = var.machine_name
 	machine_type = var.machine_type
-	zone = var.zone
 	boot_disk {
 		initialize_params {
 			image = "centos-stream-9"
@@ -38,4 +37,5 @@ resource "google_bigquery_dataset" "dataset" {
   location   = var.zone
 
 }
+
 
