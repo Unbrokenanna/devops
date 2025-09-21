@@ -44,9 +44,11 @@ variable "machine_name" {
 variable "bucket_name" {
   description = "Bucket created via Terraform"
   type        = string 
-  default     = "bucket_via_terraform_af"}
+  default     = "bucket_via_terraform_af"
+}
 
 variable "dataset_id " {
   description = "BigQuery dataset created via Terraform"
   type        = string 
-  default     = "bigquery_dataset_via_terraform_af"}
+  default     = "bigquery_dataset_via_terraform_af"
+}
