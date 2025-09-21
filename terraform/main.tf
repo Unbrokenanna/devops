@@ -35,9 +35,10 @@ resource "google_storage_bucket" "bucket" {
 
 resource "google_bigquery_dataset" "dataset" {
   dataset_id = var.dataset_id
-  location   = var.zone
+  location   = var.region
 
 }
+
 
 
 
