@@ -8,7 +8,7 @@ variable "project_id" {
 variable "region" {
   description = "Region to place compute resources at."
   type        = string
-  default     = "us-central1"
+  default     = "us-central1-a"
 }
 
 variable "zone" {
@@ -52,6 +52,7 @@ variable "dataset_id" {
   type        = string 
   default     = "bigquery_dataset_via_terraform_af"
 }
+
 
 
 
